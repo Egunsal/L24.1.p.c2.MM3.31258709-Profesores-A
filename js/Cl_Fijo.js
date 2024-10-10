@@ -16,4 +16,10 @@ export default class Cl_Fijo extends Cl_Profesor{
     mostrarNombre(){
         return this._nombre;
     }
+    mostrarBono(){
+        return this._bono;
+    }
+    mostarSueldo(){
+        return this._sueldo;
+    }
 } 
